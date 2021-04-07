@@ -8,7 +8,9 @@ Python 3+
 All dependencies defined in requirements.txt.
 Dependencies can be installed by:
 
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
+
 ```
 ## How to use:
 
@@ -17,5 +19,7 @@ Dependencies can be installed by:
 
 Run the ID3/main.py file with the following arguments:
 
-```python ID3/main.py [data file] [target variable] [instance to classify (optional)]
+```
+python ID3/main.py [data file] [target variable] [instance to classify (optional)]
+
 ```
