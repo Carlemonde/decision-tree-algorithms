@@ -27,6 +27,9 @@ python ID3/main.py [data file] [target variable] [instance to classify (optional
 
 - data file: .csv or .xlsx file containing a categorical dataset with a target variable.
 - target variable: name of the variable (or column) holding the classification label.
-- instance to classify: .json file with a dictionary containing the values of a new object (or instance) to be classified against the newly generated decision tree.
+- instance to classify: .json file with a dictionary containing the values of a new object (or instance) to be classified from the newly generated decision tree.
 
-The program returns ...
+### Output
+The program returns a new decision tree, in a textual format.
+
+If the user provides a new instance to be classified, the program also returns the classification label for that instance and the path through the decision tree that the algorithm used to classify it.
