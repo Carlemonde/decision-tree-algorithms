@@ -31,5 +31,11 @@ python ID3/main.py [data file] [target variable] [instance to classify (optional
 
 ### Output
 The program returns a new decision tree, in a textual format.
+For example, the following decision tree:
+![alt text](https://github.com/Carlemonde/decision-tree-algorithms/blob/main/dtree-example.png)
+is represented in textual format as:
+```
+[F1:c->(F)b->(T)a->[F2:y->(F)x->(T)]]
+```
 
 If the user provides a new instance to be classified, the program also returns the classification label for that instance and the path through the decision tree that the algorithm used to classify it.
